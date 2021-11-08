@@ -21,6 +21,7 @@ public class InteractiveObject : MonoBehaviour
             player = other.gameObject;
             promptManager.ShowPromt(promptText);
             playerInRange = true;
+            PlayerEnterFeedback();
         }
     }
 
@@ -36,7 +37,6 @@ public class InteractiveObject : MonoBehaviour
 
     public virtual void PlayerEnterFeedback()
     {
-
     }
 
     public virtual void PlayerExitFeedback()
