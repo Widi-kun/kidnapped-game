@@ -107,7 +107,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2000632049
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 91bf589552cb0fb47abf0d95d2a5a662, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -170,7 +170,8 @@ MonoBehaviour:
   ledgeClimbXOffset2: 0.3
   ledgeClimbYOffset2: 2
   crouchFlag: 0
-  pull: 0
+  pullGrab: 0
+  ledgeGrab: 0
 --- !u!95 &2922143613898503826
 Animator:
   serializedVersion: 3
